@@ -1,0 +1,10 @@
+List comprehension works in strings too
+Essentially, List comprehension works on any kind of iterators basically.
+
+List comprehension simple example:
+new_list = [new_item for item in iterable]
+
+Dictionary comprehension simple example:
+new_dict = {new_key:new_value for item in iterable}
+
+new_dict = {new_key:new_value for (key,value) in dict.items()}
